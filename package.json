@@ -1,7 +1,7 @@
 {
-  "name": "Seagull",
+  "name": "Block Explorer",
   "version": "0.0.1",
-  "description": "Seagull music sharing and streaming",
+  "description": "Bitcoin Block Explorer",
   "main": "index.js",
   "scripts": {
     "start": "./start"
