@@ -1,5 +1,5 @@
 {
-  "name": "Block Explorer",
+  "name": "block-explorer",
   "version": "0.0.1",
   "description": "Bitcoin Block Explorer",
   "main": "index.js",
