@@ -1,0 +1,21 @@
+{
+  "name": "pmerino-io",
+  "version": "0.0.1",
+  "authors": [
+    "Pablo Merino <pablo.perso1995@gmail.com>"
+  ],
+  "description": "My web",
+  "main": "app.js",
+  "license": "MIT",
+  "homepage": "http://pablo.xyz",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "milligram": "*"
+  }
+}

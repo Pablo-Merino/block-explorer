@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+'use strict'
+const debug = require('debug')('block-explorer'),
+      app = require('./app')
+
+app.set('port', process.env.PORT || 3003)
+
+var server = app.listen(app.get('port'), function() {
+  debug('block-explorer server listening on port :' + app.get('port'));
+})
+server.timeout = 100000;
